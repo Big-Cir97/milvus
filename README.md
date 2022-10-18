@@ -79,3 +79,6 @@ collection.partitions            # Return the list[Partition] object.
 
 collection.indexes               # Return the list[Index] object.
 
+# use
+- spring : mongodb에서 img 다운로드
+- milvus : 다운받은 img, 거리벡터 변환 후 저장 -> 업로드 된 사진과 유사성 검사(distance로 비교)

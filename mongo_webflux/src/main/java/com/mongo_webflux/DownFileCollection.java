@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 @Getter
 @NoArgsConstructor
-@Document(collection = "")
+@Document(collection = "kts_biblio")
 public class DownFileCollection {
 
     @Id

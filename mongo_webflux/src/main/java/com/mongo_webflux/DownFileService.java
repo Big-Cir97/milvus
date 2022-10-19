@@ -13,7 +13,8 @@ import java.nio.channels.ReadableByteChannel;
 @Service
 @RequiredArgsConstructor
 public class DownFileService {
-    private final String downPath = "";
+    private final String downPath = "/home/master/Desktop/milvus_test/save_img";
+    // "/Users/daewon/Desktop/mongt/save/";
 
     public void getCollection(int i, Mono<DownFileCollection> getObject) {
         Object sampleImageInfoArray = getObject.block().getSampleImageInfoArray();
